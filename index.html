@@ -15,6 +15,15 @@
       ga('require', 'GTM-N37D6TN');
       gtag('config', 'UA-112090320-1');
     </script>
+    <script>
+    var images = [];
+        var sources = ["b1.jpg","parallex.jpg"];
+        sources.forEach(function(source){
+            var img = new Image();
+            img.src = source;
+            images.push(img);
+        });
+    </script>
 
     <link href="css/font-awesome.min.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -190,14 +199,5 @@
     <script>
       new WOW().init();
     </script> 
-    <script type="text/javascript">
-    var images = [];
-        var sources = ["b1.jpg","parallex.jpg"];
-        sources.forEach(function(source){
-            var img = new Image();
-            img.src = source;
-            images.push(img);
-        });
-    </script>
   </body>
 </html>
